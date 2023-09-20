@@ -1,74 +1,69 @@
-# Healthcare-AI-WebApp
+# AltairCare - Healthcare AI WebApp
 
-![slide1](https://user-images.githubusercontent.com/83681204/132836093-c80aca67-b58d-420b-8155-23d1e54d46ac.jpg)
+![AltairCare Logo](https://user-images.githubusercontent.com/83681204/132836093-c80aca67-b58d-420b-8155-23d1e54d46ac.jpg)
 
-<h3> AltairCare can be accessed by the given link: https://altair-care.herokuapp.com </h3>
+## Welcome to AltairCare!
 
+Artificial intelligence is a rapidly advancing field that is revolutionizing various industries, including agriculture, banking, healthcare, and travel. In the healthcare sector, AI has garnered significant attention from tech giants like Microsoft, Google, Apple, and IBM. Why? Because AI simplifies the lives of patients, doctors, and hospital administrators by automating tasks traditionally performed by humans. This not only saves time but also reduces costs. AI also enables the delivery of medical services in remote and inaccessible areas and can diagnose diseases in their early stages, significantly improving the chances of recovery.
 
-Artificial intelligence is a rapidly developing field with new improvements that happen every day, it allows the automation and simplification of human activities in different industries like agriculture, Banking and Financial Services, healthcare, travel...
-<br>
-The integration of artificial intelligence in the world of health is an application that attracts a large number of companies such as Microsoft, Google, Apple and IBM, because it simplifies the lives of patients, doctors and hospital administrators by performing tasks that are typically done by humans, but in less time and at a fraction of the cost, it also allows medical services to be provided in remote and difficult to reach places and it's able to diagnose diseases in the early stages and thus increases the chances of recovery. 
-<br>
-In my application AltairCare i used machine learning and deep learning algorithms to train highly accurate models and thus allowing users to check their chance of having one of the following diseases:
-<ul>
-  <li>Liver Disease</li>
-  <li>Pneumonia Disease</li>
-  <li>Kidney Disease</li>
-  <li>Diabete Disease</li>
-  <li>Stroke Disease</li>
-  <li>Heart Disease</li>
-</ul>
+Introducing AltairCare, an innovative healthcare AI web application that leverages machine learning and deep learning algorithms to provide users with highly accurate disease prediction models. With AltairCare, users can assess their risk of developing various diseases, including:
 
+- Liver Disease
+- Pneumonia
+- Kidney Disease
+- Diabetes
+- Stroke
+- Heart Disease
 
+![Disease Prediction](https://user-images.githubusercontent.com/83681204/132843407-0d59dca9-d0cc-4a3d-a75b-6d995aca761e.jpg)
 
-![slide2](https://user-images.githubusercontent.com/83681204/132843407-0d59dca9-d0cc-4a3d-a75b-6d995aca761e.jpg)
+## Explore Disease Pages
 
+Each disease has its dedicated page within AltairCare, offering an overview of the condition, common symptoms, and detailed information about the prediction model, including the required input parameters.
 
-Each Disease have it's own page with an overview and symptoms that patient may have, and also the prediction model information and required parameters that user must provide
+### Disease Page:
 
-<h2> Disease page : </h2>
+![Disease Page](https://user-images.githubusercontent.com/83681204/159312257-c9382514-bf8a-4dd2-afc6-777e2e0f812d.png)
 
-![Capture d’écran 2022-03-21 à 17 43 16](https://user-images.githubusercontent.com/83681204/159312257-c9382514-bf8a-4dd2-afc6-777e2e0f812d.png)
+### Prediction Page:
 
-<h2> Prediction page : </h2>
+![Prediction Page](https://user-images.githubusercontent.com/83681204/159312337-8a8f8932-473b-4c66-a7f2-c63f1b045c5b.png)
 
-![Capture d’écran 2022-03-21 à 17 43 50](https://user-images.githubusercontent.com/83681204/159312337-8a8f8932-473b-4c66-a7f2-c63f1b045c5b.png)
+## Access the Data
 
-All the datasets used to train the models can be found in the Kaggle website
+All the datasets used to train our predictive models are available on Kaggle, ensuring transparency and reproducibility.
 
-<h2> Libraries Used : </h2>
-<ul>
-  <li>Flask: for backend web development </li>
-  <li>Scikit-learn & tensorflow: for training the diseases prediction models </li>
-  <li>sqlalchemy: library for handling sqlite database </li>
-</ul>
-<br/>
-<h2> How to run this project : </h2>
-<h3>Clone this repository: </h3>
+## Libraries Used
 
+We have employed various powerful libraries to bring AltairCare to life:
+
+- **Flask**: For robust backend web development.
+- **Scikit-learn & TensorFlow**: For training the disease prediction models.
+- **SQLAlchemy**: For efficient handling of SQLite databases.
+
+## How to Run This Project
+
+Want to try AltairCare locally? Follow these simple steps:
+
+### Clone this Repository:
 
 ```sh
-git clone https://github.com/kaymen99/Healthcare-AI-WebApp.git
+git clone https://github.com/vikasharma005/Healthcare_AI_WebApp.git
 cd Healthcare-AI-WebApp
 ```
 
-
-<h3>Install requirements: </h3>
-
+### Install Requirements:
 
 ```sh
 pip install -r requirements.txt
 ```
 
-
-<h3>Run this command to start local server: </h3>
-
+### Start the Local Server:
 
 ```sh
 python wsgi.py
 ```
 
+AltairCare is not just a web app; it's a leap into the future of healthcare. Explore, predict, and empower yourself with the latest in AI-driven healthcare technology. Your well-being is just a click away!
 
-
-
-
+*Disclaimer: AltairCare is designed for informational purposes only and should not be considered a substitute for professional medical advice or diagnosis. Always consult with a healthcare professional for any medical concerns.*
